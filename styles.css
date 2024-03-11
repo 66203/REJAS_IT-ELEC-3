@@ -1,0 +1,132 @@
+body {
+    font-family: 'Playfair Display', serif;;
+    background-image: url('pastel-gradient-blur-pink-purple-background-vector_53876-168076.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #000000; 
+    margin: 0;
+    padding: 10px;
+    p {
+        font-size: 1.2em; 
+        line-height: 1.5;
+    }
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    font-size: 4em; 
+    color: #000000; 
+    margin-bottom: 10px;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF; 
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f90085;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
+
+.profile-image {
+    width: 100%; 
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.profile-info {
+    width: 100%;
+}
+
+.hobby-image {
+    max-width: 1000px;
+}
+
+.mobile-photography img {
+    max-width: 20%;
+    margin: 5px;
+}
+
+.mobile-photography-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #f90085;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f90085; 
+}
+
+#scrollToTopBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000000;
+    color: #f90085;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+    background-color:  #000000;
+}

@@ -1,81 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap">
     <title>PAULA'S PORTFOLIO</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
-        }
-        h2 {
-            color: #333;
-        }
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        hr {
-            border: 1px solid #333;
-        }
-    </style>
+
 </head>
+
 <body>
 
-    <h1>PAULA'S PORTFOLIO</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+        <h1>PAULA'S PORTFOLIO</h1>
+    </header>
 
-    <h2>About Me</h2>
-    <p>Name: Paula Louisse G. Rejas</p>
-    <p>Age: 19 years old</p>
-    <p>Birthdate: May 4, 2004</p>
-    <p>Address: Prk.1 Mudiang, Davao City</p>
+    <div class="container">
 
-    <h2>Hobbies</h2>
-    <ul>
-        <li>Listening to Music</li>
-        <li>Watching Movies</li>
-        <li>TikTok</li>
-        <li>Playing Online Games</li>
-        <li>Mobile Photography</li>
-    </ul>
-
-    <h2>Interest</h2>
-    <ul>
-        <li>Web Design</li>
+        <section id="home">    
+            <img src="aboutme.png" alt="Paula's Photo" class="profile-image">
+                <div class="profile-info">
+                    <p>"I am Paula Louisse G. Rejas, a 19-year-old second-year BSIT student from Prk.1 Mudiang, Davao City, currently pursuing my studies at Jose Maria College Foundation Inc. As a dedicated learner in the field of Information Technology, I am cultivating a comprehensive understanding of various programming languages, software development methodologies, and networking. My ambition is to work as a software developer, creating and maintaining innovative software solutions that not only meet technical standards but also contribute significantly to societal betterment. I am actively involved in projects that enhance my problem-solving skills and collaborative mindset, aligning with the ever-evolving demands of the tech industry. This journey is deeply rooted in my passion for technology and continuous learning, as I strive to make a positive and meaningful impact in the dynamic field of software development."</p>
+            </div>
+        </section>
         
-    </ul>
+        <section id="about"> 
+            <p style="text-align: center; font-weight: bold; font-size: 1.7em; color: #f90085">Hobbies</p>
+            <div class="hobbies">
+                <div class="hobby">
+                    <img src="lofi-music-beautiful-girl-listen-music-sleeping-bed-wallpaper_985092-287.avif" alt="Listening to Music" class="hobby-image">
+                    <h3>Listening to Music</h3>
+                    <p>Enjoying a variety of music genres, from soothing lo-fi beats to energetic tunes. Music is my escape and inspiration.</p>
+                    </div>
+                    <div class="hobby">
+                        <img src="WatchingMovies.jpg" alt="Watching Movies" style="max-width: 700px;">
+                        <h3>Watching Movies</h3>
+                        <p>Exploring different film genres and enjoying the art of storytelling through the lens of a camera. Movies are my passion.</p>
+                    </div>
+                    <div class="hobby">
+                        <img src="TikTok.png" alt="TikTok" style="max-width: 700px;">
+                        <h3>TikTok</h3>
+                        <p>Creating and exploring short-form videos on TikTok, expressing creativity and staying updated with trending content.</p>
+                    </div>
+                    <div class="hobby">
+                        <img src="ML.jpg" alt="Playing Online Games" style="max-width: 700px;">
+                        <h3>Playing Online Games</h3>
+                        <p>Immersing myself in the world of online gaming, from strategic battles to cooperative adventures. Gaming is my digital playground.</p>
+                    </div>
+                </div>
+            <p style="text-align: center; font-weight: bold; font-size: 1.7em; color:  #f90085">Mobile Photography</p>
+            <div class="mobile-photography">
+                <p>Exploring the art of mobile photography, capturing moments with creativity and a unique perspective.</p>
+                <img src="pic1.jpg" alt="Mobile Photography 1">
+                <img src="pic2.jpg" alt="Mobile Photography 2">
+                <img src="pic3.jpg" alt="Mobile Photography 3">
+                <img src="pic4.jpg" alt="Mobile Photography 4">
+                <img src="pic5.jpg" alt="Mobile Photography 5">
+                <img src="pic6.jpg" alt="Mobile Photography 6">
+                <img src="pic7.jpg" alt="Mobile Photography 7">
+                <img src="pic8.jpg" alt="Mobile Photography 8">
+            </div>
+        </section>
 
-    <h2>Soft Skills</h2>
-    <ul>
-        <li>Leadership</li>
-        <li>Communication</li>
-        <li>Time Management</li>
-    </ul>
-
-    <h2>Education</h2>
-    <ul>
-        <li>Elementary: Mudiang Elementary School</li>
-        <li>Senior High School: F. Bustamante National High School</li>
-        <li>College: Jose Maria College Foundation Inc.</li>
-    </ul>
-
-    <hr>
-
-
-    <h2>Projects in HTML</h2>
-    <ul>
-        <li><a href="https://rejas.my.canva.site/portfolio?authuser=0">Canva Portfolio</a></li>
-        <li> Headings in HTML</li>
+        <section id="interests">
+            <h2>Interests</h2>
+            <ul>
+                <img src="web-design-header.jpg" alt="Web Design Image" style="max-width: 700px; vertical-align: middle;">
+                <li>
+                    <br>
+                    <span style="font-size: 1.5em;">Web Design</span>
+                    <p>I have a strong passion for web design because it allows me to unleash my creativity and transform ideas into visually appealing and functional websites. I enjoy the process of combining aesthetics with user experience, striving to create designs that not only look great but also provide seamless navigation and engagement.</p>
+                </li>
+            
+        </section>
+        
+        
+        <h2>Soft Skills</h2>
         <ul>
+<<<<<<< HEAD
             <li><a href="Headings in HTML/Exercise1.html"> Exercise 1 </a></li>
             <li><a href="Headings in HTML/Exercise2.html"> Exercise 2 </a></li>
             <li><a href="Headings in HTML/Exercise3.html"> Exercise 3 </a></li>
@@ -85,5 +97,93 @@
         <li><a href="https:///66203.github.io/Rejas_FilePath">File Path</a></li>
     </ul>
    
+=======
+            <li>
+                <img src="Leadership.jpg" alt="Leadership Image" style="max-width: 700px; vertical-align: middle;">
+                <li>
+                    <br>
+                <span style="font-size: 1.5em;">Leadership</span>
+                <p>Exemplifying strong leadership qualities, I strive to guide and inspire my team towards common goals. Through effective decision-making and fostering collaboration, I aim to bring out the best in myself and those around me.</p>
+            </li>
+
+            <li>
+                <img src="Communication.jpg" alt="Communication Image" style="max-width: 700px; vertical-align: middle;">
+                <li>
+                    <br>
+                <span style="font-size: 1.5em;">Communication</span>
+                <p>Effective communication is key in any endeavor. I prioritize clear and concise communication to ensure mutual understanding and collaboration. Whether conveying ideas or actively listening, I believe communication is the foundation of successful interactions.</p>
+            </li>
+
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>              
+                    <span style="font-size: 1.5em;"></span>
+                    <li></li>
+                    <img src="ES.png" alt="Elementary School Image" style="max-width: 200px; vertical-align: middle;">
+                    <p>Mudiang Elementary School</p>
+                </li>
+                <li>
+                    <span style="font-size: 1.5em;"></span>
+                    <li></li>
+                    <img src="NHS.jpg" alt="High School Image" style="max-width: 200px; vertical-align: middle;">
+                    <p>F. Bustamante National High School</p>
+                </li>
+                <li>
+                    <span style="font-size: 1.5em;"></span>
+                    <li></li>
+                    <img src="College.png" alt="College Image" style="max-width: 200px; vertical-align: middle;">
+                    <p>Jose Maria College Foundation Inc.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects in HTML</h2>
+            <ul>
+                <li><a href="https://rejas.my.canva.site/portfolio?authuser=0">Canva Portfolio</a></li>
+                <li>Headings in HTML
+                    <ul>
+                        <li><a href="Headings in HTML/Exercise1.html">Exercise 1</a></li>
+                        <li><a href="Headings in HTML/Exercise2.html">Exercise 2</a></li>
+                        <li><a href="Headings in HTML/Exercise3.html">Exercise 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://66203.github.io/Rejas_Sinigang/">How to make my favorite dish</a></li>
+                <li><a href="https://66203.github.io/Rejas_UL-OL_Implementation/">OL & UL Implementation</a></li>
+                <li><a href="Folder0/filepathindex.html">File Path</a></li>
+            </ul>
+        </section>
+
+    </div>
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">&#9650;</button>
+
+    <script>
+    
+    window.onscroll = function () {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+       
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopBtn.style.display = "block";
+        } else {
+            scrollToTopBtn.style.display = "none";
+        }
+    }
+
+    function scrollToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+>>>>>>> 5986f7a323175649ecdf8ec2e252b86baa684397
 </body>
+
 </html>
